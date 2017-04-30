@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/tamakiii/voyagegroup/issues"
   },
-  "homepage": "https://github.com/tamakiii/voyagegroup#readme"
+  "homepage": "https://github.com/tamakiii/voyagegroup#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "normalize.css": "^6.0.0",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1"
+  }
 }
