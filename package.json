@@ -1,0 +1,33 @@
+{
+  "name": "voyagegroup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w",
+    "http-server": "http-server docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamakiii/voyagegroup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/tamakiii/voyagegroup/issues"
+  },
+  "homepage": "https://github.com/tamakiii/voyagegroup#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "http-server": "^0.9.0",
+    "normalize.css": "^6.0.0",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1"
+  }
+}
